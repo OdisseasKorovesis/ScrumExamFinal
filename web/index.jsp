@@ -125,7 +125,7 @@
                         }
                     }
 
-                    if(counter <=2) {
+                    if(counter <= questionPossibleAnswers.size() / 2.0) {
                     out.println("<h3 class ='text-center'>Your score is: " + counter + " out of " + questionPossibleAnswers.size() + "</h3>");
                     out.println("<div class = 'bg-danger text-center rounded p-1 mb-4'>"
                             + "<h1 class =''>We are sorry, you failed</h1>"
